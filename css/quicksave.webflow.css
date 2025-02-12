@@ -15835,3 +15835,33 @@ figcaption {
   font-style: normal;
   font-display: swap;
 }
+
+/* Clickable Card Styles */
+.clickable-card {
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+.clickable-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  background-color: rgba(255,255,255,0.95);
+  color: inherit;
+}
+
+.clickable-card:visited,
+.clickable-card:link,
+.clickable-card:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Spezifisch für die Texte in den Cards */
+.clickable-card .text-200.medium,
+.clickable-card .text-50.medium,
+.clickable-card .text-300.medium,
+.clickable-card .text-600.bold {
+  color: inherit;
+}
